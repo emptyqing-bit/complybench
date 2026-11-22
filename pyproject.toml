@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complybench"
+version = "0.1.0"
+description = "Benchmark for regulation-constrained workflow generation by LLM agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["benchmark", "llm-agents", "compliance", "workflow", "emergency-response"]
+
+[tool.setuptools.packages.find]
+include = ["complybench*"]

@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "case-fire-lab",
+      "incident_type": "fire",
+      "severity": 2,
+      "roles": ["security", "teacher", "technician", "medic"],
+      "required_tasks": ["fire-evacuate", "fire-report", "fire-cutoff", "fire-medical"],
+      "max_deadline_min": 30,
+      "notes": "Synthetic sample case, not from the paper's evaluation set."
+    },
+    {
+      "id": "case-medical-sports",
+      "incident_type": "medical",
+      "severity": 1,
+      "roles": ["medic", "teacher", "security"],
+      "required_tasks": ["med-firstaid", "med-contact", "med-hospital"],
+      "max_deadline_min": 30
+    },
+    {
+      "id": "case-crowd-event",
+      "incident_type": "crowd",
+      "severity": 2,
+      "roles": ["security", "teacher"],
+      "required_tasks": ["crowd-channel", "crowd-broadcast", "crowd-limit"],
+      "max_deadline_min": 20
+    },
+    {
+      "id": "case-fire-dorm",
+      "incident_type": "fire",
+      "severity": 3,
+      "roles": ["security", "teacher", "technician"],
+      "required_tasks": ["fire-evacuate", "fire-report", "fire-cutoff"],
+      "max_deadline_min": 15
+    }
+  ]
+}
